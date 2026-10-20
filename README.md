@@ -71,3 +71,20 @@ Run the cells sequentially to reproduce the numerical experiments and convergenc
 The implementation uses an explicit finite difference scheme, which requires a sufficiently small time step for stability.
 
 The experiments consider European call options under the standard Black–Scholes assumptions. More general pricing models and alternative discretization schemes are beyond the current scope.
+
+
+## Related Project
+
+For a further investigation of numerical option pricing,
+see my project:
+
+**[Black-Scholes PDE Solver](https://github.com/Huangteng-Yang/black-scholes-engine)**
+
+This project implements explicit, implicit, and
+Crank-Nicolson finite difference methods for European
+put option pricing.
+
+It also compares numerical PDE solutions with the
+Black-Scholes analytical formula and Monte Carlo simulation,
+with emphasis on convergence analysis and computational
+efficiency.
